@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <title>email subcribe</title>
+</head>
+<body>
+ <!-- Background container -->
+<div class="flex h-screen items-center justify-center bg-zinc-700">
+  <!-- Card container -->
+  <div class="rounded-xl bg-zinc-800 text-white">
+    <!-- Flex container -->
+    <div class="flex flex-col md:flex-row md:items-center justify-center">
+      <!-- Image -->
+      <img src="https://avatars.mds.yandex.net/i?id=18960ff5f2649ea6b7dd92aa4053f7c94ca7f278-10651277-images-thumbs&n=13" alt="" class="md:rounded-r-0 mb-10 md:mb-0 h-60 rounded-t-xl p-1.5 md:rounded-l-xl hover:p-0.5 duration-200" />
+      <!-- Content -->
+      <div class="">
+        <h3 class="text-medium mb-4 px-4 text-center font-serif font-bold leading-tight tracking-wide md:text-left">Get diet and fitness tips in your inbox</h3>
+      <p class="mb-4 px-4 text-center text-xs font-thin md:text-left">Eat better and exercise better. Sign up for the Diet&Fitness newsletter.</p>
+
+      <form action="" class="flex flex-col space-y-2 p-4 md:flex-row md:space-x-2 md:space-y-0 mb-4 md:mb-0">
+        <input type="text" class="border border-zinc-600 bg-zinc-800 px-4 py-2 text-center text-xs focus:outline-none md:text-left" placeholder="Enter your email address" />
+        <button class="rounded-xl bg-lime-500 hover:bg-lime-700 hover:text-white duration-500 px-4 py-2 text-xs text-zinc-800">Subscribe</button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
